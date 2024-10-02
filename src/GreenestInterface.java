@@ -1,4 +1,4 @@
-public interface LiquidForPlants {
+public interface GreenestInterface {
 
     void lastMessage();
 
