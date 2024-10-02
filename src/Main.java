@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.util.Arrays;
 import java.util.List;
 
-// test av ändring för git
 public class Main {
 
     public Main() {
@@ -10,8 +9,6 @@ public class Main {
         boolean dialogWindow = true;
         boolean foundPlantInArray = false;
 
-            //Här använder jag mig av polymorfism när jag skapde en arry av superklassen Greenest.
-            //Medans arrayans olika element är skapade av dess subbklasser.
         Greenest Laura = new Palms("Laura", 5);
         Greenest Olof = new Palms("Olof", 1);
         Greenest Meatloaf = new MeatEatingPlant("Meatloaf", 0.7);
