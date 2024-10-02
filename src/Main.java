@@ -6,9 +6,6 @@ public class Main {
 
     public Main() {
 
-        boolean dialogWindow = true;
-        boolean foundPlantInArray = false;
-
         Greenest Laura = new Palms("Laura", 5);
         Greenest Olof = new Palms("Olof", 1);
         Greenest Meatloaf = new MeatEatingPlant("Meatloaf", 0.7);
@@ -16,6 +13,8 @@ public class Main {
 
         List<Greenest> listOfPlants = Arrays.asList(Laura, Olof, Meatloaf, Igge);
 
+        boolean dialogWindow = true;
+        boolean foundPlantInArray = false;
 
         //Jag valde att anävnda mig av en While-loop för att se till att programmet inte ska avslutas vid fel-inmatning
         while (dialogWindow) {
