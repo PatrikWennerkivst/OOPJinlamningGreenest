@@ -22,5 +22,4 @@ public abstract class Greenest implements GreenestInterface {
     public double getLength() {
         return length;
     }
-
 }

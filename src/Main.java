@@ -16,6 +16,8 @@ public class Main {
 
         List<Greenest> listOfPlants = Arrays.asList(Laura, Olof, Meatloaf, Igge);
 
+
+        //Jag valde att anävnda mig av en While-loop för att se till att programmet inte ska avslutas vid fel-inmatning
         while (dialogWindow) {
             String userInput = JOptionPane.showInputDialog(null, "Vilken växt ska få vätska?");
 
@@ -26,7 +28,6 @@ public class Main {
 
             for (int i = 0; i < listOfPlants.size(); i++) {
                 if (userInput.equalsIgnoreCase(listOfPlants.get(i).getName())) {
-                    //Här har jag använt polymorfism eftersom att jag hämtar den önskade metoden från rätt klass
                     listOfPlants.get(i).lastMessage();
                     foundPlantInArray = true;
                     break;

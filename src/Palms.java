@@ -14,7 +14,8 @@ public class Palms extends Greenest {
         JOptionPane.showMessageDialog(null,"Palmen " + getName()
                 + " behöver " + amountOfLiquid() + "L" + GreenestEnum.TAP_WATER.getLiquidType() + " per dag.");
     }
-
+    //Metoden amountOfLiquid är ett exempel på runtime polymorfism eftersom att den ser olika ut beroend på vilken klass
+    //den skapas upp i.
     @Override
     public double amountOfLiquid() {
         double tapWaterPerDay = GreenestEnum.FOR_PALMS.getLiquidAmount() * getLength();
