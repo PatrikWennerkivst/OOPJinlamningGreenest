@@ -10,7 +10,7 @@ public class MeatEatingPlant extends Greenest {
     // metoden giveLiquid är ett exempel på runtime polymorfism eftersom att den ser olika ut beroend på vilken klass
     //den skapas upp i.
     @Override
-    public void lastMessage() {
+    public void giveLiquid() {
         JOptionPane.showMessageDialog(null,"Den köttätande växten " + getName()
                 + " behöver " + amountOfLiquid() + "L" + GreenestEnum.PROTIENSHAKE.getLiquidType() + " per dag.");
     }

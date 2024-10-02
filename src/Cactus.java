@@ -10,7 +10,7 @@ public class Cactus extends Greenest {
     // metoden giveLiquid är ett exempel på runtime polymorfism eftersom att den ser olika ut beroend på vilken klass
     //den skapas upp i.
     @Override
-    public void lastMessage() {
+    public void giveLiquid() {
         JOptionPane.showMessageDialog(null,"Kaktusen " + getName()
                 + " behöver " + amountOfLiquid() + "cl" + GreenestEnum.MINERAL_WATER.getLiquidType()  + " per dag.");
     }

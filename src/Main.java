@@ -28,7 +28,7 @@ public class Main {
 
             for (int i = 0; i < listOfPlants.size(); i++) {
                 if (userInput.equalsIgnoreCase(listOfPlants.get(i).getName())) {
-                    listOfPlants.get(i).lastMessage();
+                    listOfPlants.get(i).giveLiquid();
                     foundPlantInArray = true;
                     break;
                 }

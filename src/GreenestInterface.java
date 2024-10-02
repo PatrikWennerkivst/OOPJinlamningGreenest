@@ -1,6 +1,6 @@
 public interface GreenestInterface {
 
-    void lastMessage();
+    void giveLiquid();
 
     double amountOfLiquid();
 
